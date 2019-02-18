@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1"
+    android:clickable="false">
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:text="New Text"
+        android:id="@+id/result"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.50"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/round"
+        android:layout_toEndOf="@+id/round"
+        android:layout_alignBottom="@+id/mc"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/bbgg" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="New Text"
+        android:id="@+id/round"
+        android:layout_weight="0.50"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/result"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/bbgg" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:id="@+id/mc"
+        android:layout_toRightOf="@+id/result"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@+id/tchip"
+        android:background="@drawable/bbgg" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/yc"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/tchip"
+        android:background="@drawable/bbgg" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="New Text"
+        android:id="@+id/tchip"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/mc"
+        android:layout_toLeftOf="@+id/yc"
+        android:layout_toStartOf="@+id/yc"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/bbgg" />
+
+</RelativeLayout>

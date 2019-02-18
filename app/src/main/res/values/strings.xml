@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Indian Poker</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name = "START">START</string>
+    <string name = "HELP">HELP</string>>
+    <string name = "user">playerId</string>
+    <string name="select_device">연결할 장치 선택</string>
+    <string name="none_found">장치 못 찾음</string>
+    <string name="scanning">장치 검색</string>
+    <string name="device_found">장치 검색 중...</string>
+    <string name="no_device">페어링된 디바이스가 없습니다.</string>
+    <string name="secure_connect">secure</string>
+    <string name="insecure_connect">insecure</string>
+    <string name="discoverable">검색 허용</string>
+    <string name="not_connected">연결되지 않음</string>
+    <string name="not_enable_bt">블루투스 활성화 안됨</string>
+    <string name="connect">디바이스에 연결</string>
+    <string name="server">Server</string>
+    <string name="gamestart">Game Start</string>
+    <string name="more">More</string>
+    <string name="call">Call</string>
+    <string name="die">Die</string>
+    <string name="okB">Send</string>
+</resources>

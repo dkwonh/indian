@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bbgg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp">
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:id="@+id/enable_search"
+            android:background="@drawable/discovery"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/search"
+            android:layout_alignEnd="@+id/search"
+            android:layout_marginTop="46dp" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:id="@+id/search"
+            android:layout_below="@+id/enable_search"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="23dp"
+            android:background="@drawable/serch" />
+
+    </RelativeLayout>
+</RelativeLayout>
